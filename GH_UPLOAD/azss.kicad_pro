@@ -524,7 +524,7 @@
       "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "PCB_STEP/azss_tofplus_v0-07.step",
+      "step": "PCB_STEP/v0-11.step",
       "svg": "",
       "vrml": ""
     },

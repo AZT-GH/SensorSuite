@@ -7081,7 +7081,7 @@
 		)
 		(uuid "5ba3600e-c3e1-4530-a60f-56f3e492fb32")
 	)
-	(label "I2C_SCL"
+	(label "I2C_SDA"
 		(at 256.54 63.5 0)
 		(effects
 			(font
