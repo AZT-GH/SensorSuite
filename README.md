@@ -8,3 +8,5 @@ Start by reading the design review which is a detailed outline of almost all dec
 > The design review is still undergoing heavy work. Expect changes and report inaccuracies.
 
 View the project entirely online on KiCanvas - https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FAZT-GH%2FSensorSuite%2Ftree%2Fmain%2FGH_UPLOAD
+
+<img width="763" height="783" alt="image" src="https://github.com/user-attachments/assets/80a72092-fbf0-4db2-b39a-f5d6b3df9729" />
