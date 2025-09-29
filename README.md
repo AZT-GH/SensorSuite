@@ -2,7 +2,7 @@ The entirety of the "SensorSuite" project operates under the TAPR OHL license av
 A copy is available in license.txt
 
 The project is currently in the final design phase and will be manufactured when funds are available.
-Start by reading the design review which is a detailed outline of almost all decisions made in the development process.
+Start by reading the design review (DR0001) which is a detailed outline of almost all decisions made in the development process.
 
 > [!CAUTION]  
 > The design review is still undergoing heavy work. Expect changes and report inaccuracies.
