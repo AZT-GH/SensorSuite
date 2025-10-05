@@ -1,12 +1,11 @@
-**AZ SensorSuite**
-
+**AZ SensorSuite**<br>
 Copyright © 2025 Adam Zembrzuski
 
-_Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)_
-
+_Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)_<br>
 _A full copy of the TAPR Open Hardware License is available in license.txt_
 
-The project is currently in the final design phase and will be manufactured when funds are available.
+
+**MANIFEST**
 Start by reading the design review (DR0001) which is a detailed outline of almost all decisions made in the development process.
 
 > [!CAUTION]  
