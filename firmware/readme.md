@@ -56,7 +56,7 @@ Service UUID : `229a0001-ad33-4a06-9bce-c34201743655`
 *¶ Detect refers to human/object detection, ambient detection is still carried out*
 
 ### Data Collection
-The device only collects timestamp logs if it is within the active period, definable via the 0x3- commands. The device defaults to 24/7 operation on reset.
+The device only collects timestamp logs if it is within the active period, definable via the 0x3- commands. The selected active period is stored in NVM.
 
 Ambient logs are collected regardless of the system state (if the SHT3x is enabled in `prj.conf`).
 
