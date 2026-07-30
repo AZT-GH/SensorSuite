@@ -15,6 +15,13 @@ The included example firmware detects when people pass through a doorway into a 
 
 **Interactive Viewer:** View the PCB and schematic entirely in your browser on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FAZT-GH%2FSensorSuite%2Ftree%2Fmain%2Fhardware).
 
+#
+
+**Special thanks to [**PCBWay**](https://www.pcbway.com/) for sponsoring the development of this project.**
+
+#
+
+
 ### Hardware Features
 
 * **SoC / Connectivity:** Nordic NRF54L15 (via U-Blox Nora B206 module). Supports BLE 6.0, Matter, Thread, Zigbee, and proprietary 2.4GHz communication.
@@ -50,6 +57,60 @@ The included example firmware detects when people pass through a doorway into a 
 
 <img width="462" height="150" alt="error" src="https://github.com/user-attachments/assets/c01f1521-834b-4669-94a2-276189f38c14" />
 
+## PCB Ordering Guide (Sponsored)
+
+Follow these steps to generate fabrication files and order your boards from PCBWay.
+
+### 1. Clone and Open the Project
+1. Clone the repository to your local machine.
+2. Open `azss.kicad_pro` in **KiCad 9** or newer.
+3. *(Optional)* Make any custom modifications needed for your project.
+
+### 2. Run Design Rules Check (DRC)
+Run the DRC in KiCad to verify your layout.
+
+> [!NOTE]
+> You can safely ignore the following DRC error:
+> 
+> <img width="303" height="75" alt="KiCad DRC Error" src="https://github.com/user-attachments/assets/adf46d52-0d3a-4314-a157-e372f7856f33" />
+
+### 3. Export Gerber & Drill Files
+1. Open the PCB Editor.
+2. Go to **File → Fabrication Outputs → Gerbers (.gbr)**.
+3. Choose or create a dedicated output directory (e.g., `fabrication/`).
+4. Click **Plot**.
+5. Click **Generate Drill Files**, keep default options, and click **Generate**.
+6. Compress the contents of your output directory into a single **`.zip`** file.
+
+### 4. Upload to PCBWay
+1. Go to the [PCBWay Quick Order Page](https://www.pcbway.com/QuickOrderOnline.aspx).
+2. Upload your `.zip` file.
+3. Inspect your layout using the online **Gerber Viewer** to verify the gerber exported correctly.
+
+### 5. Configure PCB Parameters
+Set the board parameters to match the project requirements:
+
+* **Layers:** Select **4 Layers**.
+
+<details>
+<summary><b>Click to view 4-Layer Stackup Configuration</b></summary>
+<br>
+<img width="315" height="213" alt="Layer Stackup Configuration" src="https://github.com/user-attachments/assets/e3a25e56-5cc3-448c-a2f2-9ec223106941" />
+
+</details>
+
+* **Required PCB Specifications:**
+  * **Min Track / Spacing:** `4/4mil`
+  * **Min Hole Size:** `0.3mm`
+  * **Surface Finish:** `Immersion Gold (ENIG)`
+  * **Via Process:** `Plugged vias with solder mask`
+
+### 6. Add Assembly / Stencil & Checkout
+1. **Stencil / Assembly:** Add an **SMD Stencil** if hand-assembling, or select PCBWay's **Assembly Service** if you want them pre-assembled.
+2. Click **Save to Cart**.
+3. Wait for PCBWay's order review to complete.
+4. Proceed to checkout, pay, and wait for your boards!
+   
 ## Release Notes
 
 v1.0.0 - 17/04/26 - Initial release with all core features implemented
