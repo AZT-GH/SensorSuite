@@ -8,10 +8,11 @@
 
 ## Overview
 <img width="1920" height="1080" alt="land_export" src="https://github.com/user-attachments/assets/4e11e4e2-a3a2-4446-b661-37c5dac60c5e" />
-
+   
 AZSensorSuite (AZSS) is an ultra-low-power, data-acquisition hardware platform designed to be user-programmed for a variety of applications. 
 
-The included example firmware detects when people pass through a doorway into a closed space. A machine learning model (run on a host computer) can then predict when the space is empty so that services like heating or lighting can be automatically disabled.
+The included example firmware implements a unidirectional object counter and temperature and humidity logger, with BLE implemented for real time updates and data download.
+
 
 **Interactive Viewer:** View the PCB and schematic entirely in your browser on [KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FAZT-GH%2FSensorSuite%2Ftree%2Fmain%2Fhardware).
 
@@ -20,7 +21,6 @@ The included example firmware detects when people pass through a doorway into a 
 **Special thanks to [**PCBWay**](https://www.pcbway.com/) for sponsoring the development of this project.**
 
 #
-
 
 ### Hardware Features
 
@@ -108,7 +108,7 @@ Set the board parameters to match the project requirements:
 ### 6. Add Assembly / Stencil & Checkout
 1. **Stencil / Assembly:** Add an **SMD Stencil** if hand-assembling, or select PCBWay's **Assembly Service** if you want them pre-assembled.
 2. Click **Save to Cart**.
-3. Wait for PCBWay's order review to complete.
+3. Wait for PCBWay's order review to complete, typically within an hour.
 4. Proceed to checkout, pay, and wait for your boards!
    
 ## Release Notes
