@@ -6,17 +6,24 @@ This folder contains all hardware design files and documentation.
 ##
 ### PCB Fabrication
 
-The PCB is four layers, based on the [OshPark](https://docs.oshpark.com/services/four-layer/) 
-four-layer stackup. A different stackup may be used if preferable, as only two GPIO traces 
-require controlled impedance.
+Special thanks to [**PCBWay**](https://www.pcbway.com/) for sponsoring the development of this project.
+
+
 
 | Parameter | Value |
 |---|---|
 | Layers | 4 |
 | Board thickness | 1.6mm |
-| Surface finish | 2µ" ENIG (preferred) |
-| Via drill / pad | 0.3 / 0.4mm |
-| Via tenting | Tented minimum, plugged preferred |
+| Surface finish | 2µ" ENIG with *(preferably)* selective hardened gold for the battery contact |
+| Min hole size | 0.3mm |
+| Min track spacing | 4mils |
+| Via process | See below |
+
+- Due to the nature of the vias sitting on the battery contact, copper/resin filled vias are highly encouraged.
+
+- LPI filled or tented vias will work for at least ~50 insertions.
+
+- **Untented vias are unsuitable and will cause catastrophic failure if a battery is inserted.**
 
 ### Stencil
 
