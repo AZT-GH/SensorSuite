@@ -1,6 +1,7 @@
 # AZSensorSuite
 
 [![License: TAPR-OHL](https://img.shields.io/badge/License-TAPR%20OHL-blue.svg)](https://web.tapr.org/TAPR_Open_Hardware_License_v1.0.txt)
+![Sponsored by PCBWay](https://img.shields.io/badge/PCB%20Sponsor-PCBWay-green)
 
 > [!WARNING]
 > This device has been mostly tested, however, problems may arise. Expect changes and please report any inaccuracies or issues.
@@ -18,7 +19,9 @@ The included example firmware implements a unidirectional object counter and tem
 
 #
 
-**Special thanks to [**PCBWay**](https://www.pcbway.com/) for sponsoring the development of this project.**
+**Special thanks to [**PCBWay**](https://www.pcbway.com/) for sponsoring the development of this project.** 
+
+If you're looking for high-quality advanced PCB manufacturing and assembly and great customer support, check them out.
 
 #
 
@@ -57,10 +60,10 @@ The included example firmware implements a unidirectional object counter and tem
 
 <img width="462" height="150" alt="error" src="https://github.com/user-attachments/assets/c01f1521-834b-4669-94a2-276189f38c14" />
 
-## PCB Ordering Guide (Sponsored)
+## PCB Ordering Guide
 
-Follow these steps to generate fabrication files and order your boards from PCBWay.
-
+| I used [**PCBWay**](https://www.pcbway.com/) for PCB fabrication as they offer reliable quality, competitive pricing, and quick turnaround, even with the nonstandard specs required by this project. |
+|---|
 ### 1. Clone and Open the Project
 1. Clone the repository to your local machine.
 2. Open `azss.kicad_pro` in **KiCad 9** or newer.
@@ -106,7 +109,7 @@ Set the board parameters to match the project requirements:
   * **Via Process:** `Plugged vias with solder mask`
 
 ### 6. Add Assembly / Stencil & Checkout
-1. **Stencil / Assembly:** Add an **SMD Stencil** if hand-assembling, or select PCBWay's **Assembly Service** if you want them pre-assembled.
+1. **Stencil / Assembly:** Add an **SMD Stencil** if hand-assembling, or select PCBWay's **Assembly Service** if you want them professionally assembled.
 2. Click **Save to Cart**.
 3. Wait for PCBWay's order review to complete, typically within an hour.
 4. Proceed to checkout, pay, and wait for your boards!
