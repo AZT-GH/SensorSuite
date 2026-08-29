@@ -13,7 +13,7 @@ For build and flash instructions, see the
 |---|---|
 | VL53L4CD ToF detection | Complete |
 | SHT30 temperature / humidity | Complete |
-| BLE service | Complete |
+| BLE service | Bugged |
 | NVM storage | Complete |
 | Dynamic ToF interval | Complete |
 | SAADC VCC monitoring | Planned |
