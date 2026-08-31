@@ -6,7 +6,7 @@ AZSensorSuite over BLE.
 **ML functionality has not been implemented yet, and will not be implemented in the forseeable future.**
 
 > [!WARNING]
-> The software in this folder has been heavily vibecoded. Expect unreliability. (A human rewrite is planned)
+> This client was written quickly to test the firmware and is due for a rewrite. Please expect and report bugs.
 
 *Python 3.7 or higher is required.*
 
