@@ -1,7 +1,7 @@
 ## Firmware
 
 This folder contains all firmware source files and documentation. The latest firmware (release v1.0.0)
-has been verified working on PCB V1.10 (all functions).
+has been verified working on PCB V1.12 (all functions).
 
 For build and flash instructions, see the 
 [main README](../README.md#example-quickstart-guide).
